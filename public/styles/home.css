@@ -1,0 +1,29 @@
+.main__article.home {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home__redirection {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.home__redirection div {
+    width: 450px;
+    border: dotted rgb(255, 185, 200, 0.5) 2px;
+    padding: 16px;
+    border-radius: 10px;
+    background-color: rgb(255, 185, 200, 0.15);
+}
+
+.home-link::after {
+    content: " >>";
+    position: relative;
+    bottom: 1px;
+}

@@ -1,0 +1,219 @@
+@font-face {
+  font-family: "EB Garamond";
+  src: url("../assets/fonts/eb-garamond/EBGaramond-BoldItalic.woff2") format("woff2"),
+    url("../assets/fonts/eb-garamond/EBGaramond-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "EB Garamond";
+  src: url("../assets/fonts/eb-garamond/EBGaramond-SemiBold.woff2") format("woff2"),
+    url("../assets/fonts/eb-garamond/EBGaramond-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "EB Garamond";
+  src: url("../assets/fonts/eb-garamond/EBGaramond-Bold.woff2") format("woff2"),
+    url("../assets/fonts/eb-garamond/EBGaramond-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "EB Garamond";
+  src: url("../assets/fonts/eb-garamond/EBGaramond-SemiBoldItalic.woff2")
+      format("woff2"),
+    url("../assets/fonts/eb-garamond/EBGaramond-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "EB Garamond";
+  src: url("../assets/fonts/eb-garamond/EBGaramond-MediumItalic.woff2") format("woff2"),
+    url("../assets/fonts/eb-garamond/EBGaramond-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "EB Garamond";
+  src: url("../assets/fonts/eb-garamond/EBGaramond-Italic.woff2") format("woff2"),
+    url("../assets/fonts/eb-garamond/EBGaramond-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "EB Garamond";
+  src: url("../assets/fonts/eb-garamond/EBGaramond-ExtraBoldItalic.woff2")
+      format("woff2"),
+    url("../assets/fonts/eb-garamond/EBGaramond-ExtraBoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "EB Garamond";
+  src: url("../assets/fonts/eb-garamond/EBGaramond-ExtraBold.woff2") format("woff2"),
+    url("../assets/fonts/eb-garamond/EBGaramond-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "EB Garamond";
+  src: url("../assets/fonts/eb-garamond/EBGaramond-Regular.woff2") format("woff2"),
+    url("../assets/fonts/eb-garamond/EBGaramond-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "EB Garamond";
+  src: url("../assets/fonts/eb-garamond/EBGaramond-Medium.woff2") format("woff2"),
+    url("../assets/fonts/eb-garamond/EBGaramond-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Crimson Text";
+  src: url("../assets/fonts/crimson-text/CrimsonText-BoldItalic.woff2") format("woff2"),
+    url("../assets/fonts/crimson-text/CrimsonText-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Crimson Text";
+  src: url("../assets/fonts/crimson-text/CrimsonText-Regular.woff2") format("woff2"),
+    url("../assets/fonts/crimson-text/CrimsonText-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Crimson Text";
+  src: url("../assets/fonts/crimson-text/CrimsonText-Bold.woff2") format("woff2"),
+    url("../assets/fonts/crimson-text/CrimsonText-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Crimson Text";
+  src: url("../assets/fonts/crimson-text/CrimsonText-SemiBold.woff2") format("woff2"),
+    url("../assets/fonts/crimson-text/CrimsonText-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Crimson Text";
+  src: url("../assets/fonts/crimson-text/CrimsonText-Italic.woff2") format("woff2"),
+    url("../assets/fonts/crimson-text/CrimsonText-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Crimson Text";
+  src: url("../assets/fonts/crimson-text/CrimsonText-SemiBoldItalic.woff2")
+      format("woff2"),
+    url("../assets/fonts/crimson-text/CrimsonText-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Serif JP";
+  src: url("../assets/fonts/noto-serif-jp/NotoSerifJP-Medium.woff2") format("woff2"),
+    url("../assets/fonts/noto-serif-jp/NotoSerifJP-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Serif JP";
+  src: url("../assets/fonts/noto-serif-jp/NotoSerifJP-ExtraBold.woff2") format("woff2"),
+    url("../assets/fonts/noto-serif-jp/NotoSerifJP-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Serif JP";
+  src: url("../assets/fonts/noto-serif-jp/NotoSerifJP-Bold.woff2") format("woff2"),
+    url("../assets/fonts/noto-serif-jp/NotoSerifJP-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Serif JP";
+  src: url("../assets/fonts/noto-serif-jp/NotoSerifJP-Light.woff2") format("woff2"),
+    url("../assets/fonts/noto-serif-jp/NotoSerifJP-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Serif JP";
+  src: url("../assets/fonts/noto-serif-jp/NotoSerifJP-Black.woff2") format("woff2"),
+    url("../assets/fonts/noto-serif-jp/NotoSerifJP-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Serif JP";
+  src: url("../assets/fonts/noto-serif-jp/NotoSerifJP-ExtraLight.woff2")
+      format("woff2"),
+    url("../assets/fonts/noto-serif-jp/NotoSerifJP-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Serif JP";
+  src: url("../assets/fonts/noto-serif-jp/NotoSerifJP-SemiBold.woff2") format("woff2"),
+    url("../assets/fonts/noto-serif-jp/NotoSerifJP-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Serif JP";
+  src: url("../assets/fonts/noto-serif-jp/NotoSerifJP-Regular.woff2") format("woff2"),
+    url("../assets/fonts/noto-serif-jp/NotoSerifJP-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,147 @@
+.header {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.8) 100%
+    );
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .menu {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    grid-template-areas:
+      "logo . ."
+      "logo . .";
+  }
+  
+  .header__logo-container {
+    grid-area: logo;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    mix-blend-mode: multiply;
+    width: 100%;
+    height: auto;
+  }
+  
+  .menu-item {
+    text-align: center;
+    align-content: center;
+    text-decoration: none;
+  }
+  
+  .menu-item:hover {
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.6) 100%
+    );
+  }
+  
+  .menu-item__text {
+    color: #000;
+    text-shadow: 0 0 4px rgb(255, 185, 200);
+    text-align: center;
+    font-family: "Crimson Text";
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin: 16px;
+  }
+
+  .selected-page {
+    text-decoration: underline;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .logo {
+      width: 180px;
+      height: auto;
+    }
+  
+    .menu {
+      display: flex;
+      flex-direction: row;
+      justify-content: first baseline;
+      flex-grow: 1;
+      max-width: 1232px;
+    }
+  }
+  .header {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.8) 100%
+    );
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .menu {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    grid-template-areas:
+      "logo . ."
+      "logo . .";
+  }
+  
+  .header__logo-container {
+    grid-area: logo;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    mix-blend-mode: multiply;
+    width: 100%;
+    height: auto;
+  }
+  
+  .menu-item {
+    text-align: center;
+    align-content: center;
+    text-decoration: none;
+  }
+  
+  .menu-item:hover {
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.6) 100%
+    );
+  }
+  
+  .menu-item__text {
+    color: #000;
+    text-shadow: 0 0 4px rgb(255, 185, 200);
+    text-align: center;
+    font-family: "Crimson Text";
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin: 16px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .logo {
+      width: 180px;
+      height: auto;
+    }
+  
+    .menu {
+      display: flex;
+      flex-direction: row;
+      justify-content: first baseline;
+      flex-grow: 1;
+      max-width: 1232px;
+    }
+  }
+    

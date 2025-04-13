@@ -1,0 +1,65 @@
+.main__article.advanced {
+  margin-bottom: 16px;
+}
+
+.image.introduction {
+  background-image: url(../assets/images/oraclebonescript.jpg);
+  background-size: cover;
+  background-position: top;
+  height: 18em;
+  width: auto;
+}
+
+.image.basics {
+  background-image: url(../assets/images/kunyomivsonyomi.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 12em;
+  width: 100%;
+}
+
+.image.ateji {
+  background-image: url(../assets/images/sushi.png);
+  background-size: cover;
+  background-position: top;
+  height: 18em;
+  width: auto;
+}
+
+.image.gikun {
+  background-image: url(../assets/images/small_birds_play.png);
+  background-size: cover;
+  background-position: top;
+  height: 15em;
+  width: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .main__article.introduction {
+    display: flex;
+    flex-direction: row;
+  }
+  .image.introduction {
+    height: 22em;
+    width: 100%;
+    margin-left: 16px;
+  }
+
+  .image.basics {
+    width: 50%;
+    height: 280px;
+    margin: 0 auto;
+  }
+
+  .image.ateji {
+    height: 22em;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .image.gikun {
+    height: 22em;
+    width: 70%;
+    margin: 0 auto;
+  }
+}

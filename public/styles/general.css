@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    height: 100vh;
+  }
+  
+  a:any-link {
+    text-decoration: none;
+  }
+
+  button {
+    padding: 16px 32px;
+    font-size: 1.4rem;
+    border-radius: 16px;
+    font-family: "EB Garamond";
+    box-shadow: 0 0 8px #ffb7c5 inset;
+    background-color: rgb(255, 220, 227);
+    border: 2px outset #ff99ad;
+    font-weight: 600;
+  }
+
+  button:hover {
+    background-color: rgb(255, 242, 245);
+  }
+
+  button:active {
+    border: 2px inset #ff99ad
+  }
+
+  input {
+    border: 2px inset #cf8191;
+  }
+  
+  body {
+    background-image: url("../assets/images/sakura-background.jpg");
+    background-position: center;
+    background-size: fixed;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100%;
+  }

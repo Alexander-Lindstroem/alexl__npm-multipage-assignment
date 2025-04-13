@@ -1,0 +1,104 @@
+.example-grid-container {
+  font-family: "Crimson Text";
+  background-color: rgb(255, 185, 200, 0.15);
+  padding: 12px;
+  display: grid;
+  grid-template: repeat(3, auto) / repeat(6, auto);
+  grid-template-areas:
+    "kanji kanji kanji kanji kanji kanji"
+    ". . . . . . "
+    "explanation explanation explanation explanation explanation explanation";
+}
+
+.kanji-grid-area {
+  grid-area: kanji;
+  font-size: 3rem;
+  font-family: "Noto Serif JP";
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.explanation-grid-area {
+  border-style: none dotted dotted dotted;
+  border-color: rgb(255, 185, 200, 0.5);
+  margin: auto;
+  padding: 8px;
+  font-size: 1rem;
+  grid-area: explanation;
+}
+
+.row-grid-area {
+  border-color: rgb(255, 185, 200, 0.5);
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.thin.row-grid-area {
+  border-style: dotted;
+}
+
+.thin.row-grid-area::after {
+  content: ":";
+}
+
+.thick.row-grid-area {
+  border-style: dotted none;
+}
+
+.thick.row-grid-area.last-area {
+  border-right-style: dotted;
+}
+
+.first-item {
+  border-radius: 16px 16px 0 0;
+  margin-top: 16px;
+}
+
+.last-item {
+  border-radius: 0 0 16px 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .example-grid-container {
+    grid-template: repeat(6, auto) / auto 1.5fr 8fr;
+    grid-template-areas:
+      "kanji . explanation"
+      "kanji . explanation"
+      "kanji . explanation"
+      "kanji . explanation"
+      "kanji . explanation"
+      "kanji . explanation";
+  }
+  .kanji-grid-area {
+    font-size: 5rem;
+    margin: auto;
+    margin-right: 12px;
+    align-items: center;
+  }
+  .explanation-grid-area {
+    border-style: none;
+    margin: auto;
+    margin-left: 12px;
+    font-size: 1.2rem;
+  }
+  .thin.row-grid-area {
+    border-style: none;
+    font-size: 0.8rem;
+    text-align: left;
+  }
+  .thin.row-grid-area::after {
+    content: none;
+  }
+  .thick.row-grid-area {
+    border-style: none;
+    font-size: 1.1rem;
+    text-align: left;
+  }
+  .thick.row-grid-area.last-area {
+    border-right-style: none;
+  }
+  .border-item {
+    border-top-style: dotted;
+    border-color: rgb(255, 185, 200, 0.5);
+  }
+}

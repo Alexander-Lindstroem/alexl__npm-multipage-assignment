@@ -1,0 +1,13 @@
+<div class="submenu">
+    <div class="submenu__container">
+        <h1 class="page-title"><%= locals.pageTitle %></h1>
+        <div class="submenu__items">
+            <a class="menu-item" href="/articles/introduction">
+                <p class="submenu__text <%= locals.currentArticle === "introduction" ? "selected-page" : `` %>">Introduction</p></a>
+            <a class="menu-item" href="/articles/gikun">
+                <p class="submenu__text <%= locals.currentArticle === "gikun" ? "selected-page" : `` %>">Gikun</p></a>
+            <a class="menu-item" href="/articles/ateji">
+                <p class="submenu__text <%= locals.currentArticle === "ateji" ? "selected-page" : `` %>">Ateji</p></a>
+        </div>
+    </div>
+</div>

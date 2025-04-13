@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include("../partials/head.ejs") %>
+<body>
+<%- include("../partials/header.ejs") %>
+<%- include("../partials/submenuArticles.ejs") %>
+<main class="main">
+    <section class="main__container">
+        <% if (locals.currentArticle) { %>
+            <%- include(`../partials/${locals.currentArticle}.ejs`) %>
+        <% } else { %>
+            <div class="main__article">No article found!</div>  
+        <% } %>
+    </section>
+</main>
+<%- include("../partials/footer.ejs") %>
+</body>
+</html>

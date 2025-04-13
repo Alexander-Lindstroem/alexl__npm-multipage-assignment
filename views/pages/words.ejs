@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include("../partials/head.ejs") %>
+<body>
+<%- include("../partials/header.ejs") %>
+<%- include("../partials/submenuWords.ejs") %>
+<main class="main">
+    <section class="main__container">
+        <% if (locals.word) {%>
+        <%- include("../partials/wordShowcase.ejs") %>
+        <% } else { %>
+        <%- include("../partials/noWord.ejs")%>
+        <% } %>
+    </section>
+</main>
+<%- include("../partials/footer.ejs") %>
+</body>
+</html>

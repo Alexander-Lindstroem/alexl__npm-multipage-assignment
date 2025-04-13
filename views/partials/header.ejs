@@ -1,0 +1,10 @@
+<header class="header">
+    <div class="menu">
+      <a class="header__logo-container" href="/"><img class="logo" src="/assets/images/logo.png" alt="Logo"/></a>
+      <a class="menu-item" href="/"><p class="menu-item__text <%= locals.currentPage === "home" ? "selected-page" : `` %>">Home</p></a>
+      <a class="menu-item" href="/articles"><p class="menu-item__text <%= locals.currentPage === "articles" ? "selected-page" : `` %>">Articles</p></a>
+      <a class="menu-item" href="/words"><p class="menu-item__text <%= locals.currentPage === "words" ? "selected-page" : `` %>">Words</p></a>
+      <a class="menu-item" href="/contact"><p class="menu-item__text <%= locals.currentPage === "contact" ? "selected-page" : `` %>">Contact</p></a>
+    </div>
+</header>
+
